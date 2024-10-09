@@ -24,6 +24,7 @@ class Brick extends RectangleComponent
       Set<Vector2> intersectionPoints, PositionComponent other) {
     super.onCollisionStart(intersectionPoints, other);
     removeFromParent();
+    game.score.value++;
 
     if (game.world.children.query<Brick>().length == 1) {
       game.playState = PlayState.won;
