@@ -79,7 +79,6 @@ class BrickBreaker extends FlameGame
         position: Vector2(width / 2, height * 0.95)));
 
     world.addAll([
-      // Drop the await
       for (var i = 0; i < brickColors.length; i++)
         for (var j = 1; j <= 5; j++)
           Brick(
@@ -90,7 +89,6 @@ class BrickBreaker extends FlameGame
             color: brickColors[i],
           ),
     ]);
-
   }
 
   @override

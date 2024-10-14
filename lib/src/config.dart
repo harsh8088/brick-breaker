@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 const brickColors = [
-  // Add this const
   Color(0xfff94144),
   Color(0xfff3722c),
   Color(0xfff8961e),

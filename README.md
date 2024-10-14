@@ -1,6 +1,6 @@
 # brick_breaker
 
-A new Flutter project.
+A new Flutter Game using flame engine.
 
 ## Getting Started
 
